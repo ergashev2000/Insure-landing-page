@@ -1,0 +1,59 @@
+body{
+    font-family: 'Karla', sans-serif;
+}
+//  font-family: 'DM Serif Display', serif;
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    .nav__items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .nav__item{
+            list-style: none;
+            
+        }
+        .nav__link{
+            text-decoration: none;
+            padding: 30px;
+            font-family: 'Karla';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 15px;
+            text-align: center;
+            letter-spacing: 1.5px;
+            color: #837D88;
+            transition: all .3s;
+            &:hover{
+                color: #000;
+            }
+        }
+        .nav__btn{
+            padding: 12px 25px;
+            border: 1.5px solid #2C2830;
+            text-decoration: none;
+            color: #2C2830;
+            font-family: 'Karla';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 15px;
+            text-align: center;
+            letter-spacing: 1.5px;
+            color: #2C2830;
+            transition: all .5s;
+            &:hover{
+                background-color: #2C2830;
+                color: #fff;
+                border: 1.5px solid #96A9C6;
+            }
+        }
+
+    }
+}

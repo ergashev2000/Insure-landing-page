@@ -1,0 +1,158 @@
+// Hero style
+.hero{
+    background-color: #2D2641;
+    position: relative;
+    &__text{
+        width: 50%;
+        padding: 5%;
+        margin-left: 50px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        
+        &::after{
+            content: url(../images/bitmap.png);
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            right: 400px;
+            top: 100px;
+        }
+        
+        &__description{
+            font-family: 'Karla';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #FFFFFF;
+            margin-bottom: 50px;
+            opacity: .7;
+            font-weight: 400;
+        }
+        &__btn{
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 40px;
+            border: 1.5px solid #FFFFFF;
+            font-family: 'Karla';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 15px;
+            text-align: center;
+            letter-spacing: 1.5px;
+            color: #FFFFFF;
+            transition: all .4s;
+            &:hover{
+                background-color: #fff;
+                color: black;
+            }
+        }
+
+    }
+    &__text__title{
+        font-family: 'DM Serif Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 64px;
+        letter-spacing: -1px;
+        color: #FFFFFF;
+    }
+    
+}
+.line{
+    margin-left: 0;
+    width: 200px;
+    height: 2px;
+    border: none;
+    background-color: #fff;
+    opacity: .6;
+    
+}
+
+
+
+// Info style
+.info{
+    margin-top: 250px;
+    margin-left: 100px;
+    margin-right: 100px;
+    .info__line{
+        background-color: black;
+        opacity: .2;
+    }
+    &__title{
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 64px;
+        letter-spacing: -1px;
+        color: #2C2830;
+        margin: 150px 0 150px 0;
+    }
+    &__box{
+        display: flex;
+        justify-content: space-between;
+        .card{
+            width: 31%;
+            &__title{
+                font-family: 'DM Serif Display';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 38px;
+                letter-spacing: -0.388889px;
+                color: #2C2830;
+                
+            }
+            &__description{
+                font-size: 16px;
+                line-height: 26px;
+                color: #837D88;
+            }
+        }
+    }
+}
+
+// About style
+.about{
+    margin-top: 150px;
+    background-color: #2D2641;
+    &__text{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title{
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 56px;
+        width: 50%;
+        padding: 70px 100px;
+        letter-spacing: -0.777778px;
+        color: #FFFFFF;
+    }
+    &__btn{
+        margin-right: 100px;
+        padding: 20px 50px;
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+        letter-spacing: 1.5px;
+        color: #FFFFFF;
+        text-decoration: none;
+        border: 1px solid #fff;
+        transition: all .5s;
+        &:hover{
+            background-color: #fff;
+            color: #2C2830;
+        }
+    }
+}
